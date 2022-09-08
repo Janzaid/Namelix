@@ -1,0 +1,49 @@
+.box{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: transparent;
+    margin-top: 50px;
+    border: 1px solid orange;
+    border-radius: 15px 15px 15px 15px;
+    padding-bottom: 25px;
+}
+.box h1{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: 25px;
+    color: orange;
+}
+.box h3{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 40px;
+    
+}
+.box input{
+    width: 450px;
+    border-radius: 50px 50px 50px 50px;
+    border: 3px solid orange;
+    padding: 10px;
+    padding-left: 25px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+}
+.button{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding: 12px;
+    width: 190px;
+    border-radius: 35px 35px 35px 35px;
+    
+}
+.button:hover{
+    background-color: orange;
+    
+}

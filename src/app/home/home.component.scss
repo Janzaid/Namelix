@@ -1,0 +1,53 @@
+
+.typo{
+    text-align: center;
+    color: white;
+    margin-top: 35px;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+h6{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: orange;
+}
+.box{
+    width: 1300px;
+    margin: 0 auto;
+    margin-top: 55px;
+    margin-bottom: 50px;
+
+}
+.row h3{
+    color: orange;
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+.row p{
+    color: white;
+    text-align:justify;
+}
+.row button{
+    margin-left: 120px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+}
+.row button:hover{
+    background-color: orange;
+}
+#card{
+    border: 2px solid orange;
+    margin: 0 auto !important;
+    width: 370px;
+    border-radius: 10px;
+}
+#card:hover{
+    transition: all .5s;
+    transform: scale(1.2);
+}

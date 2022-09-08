@@ -1,0 +1,11 @@
+<div class="box">
+  <h1>Which University Are You Looking For?</h1>
+  <h3>
+    Enter University Name: &nbsp;
+    <input type="text" #name placeholder="University Name" /> &nbsp;&nbsp;
+    <button (click)="getUsers(name.value)" class="button">Search</button>
+  </h3>
+</div>
+<ul style="color: aliceblue">
+  <li *ngFor="let user of users">{{ user.value }}</li>
+</ul>
